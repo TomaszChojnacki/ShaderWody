@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class BoatFloat : MonoBehaviour
 {
-    public Transform waterTransform; // Ob woda
+   
     public float floatHeight = 5f; // Jak wysoko ma sie unosic nad fala
     public float tiltAmount = 5f;   // Maksymalne przechylenie statku
-    public float bobSpeed = 1f;      // Predkoœæ bujania w pionie
-    public float rotateSpeed = 1f;   // Predkoœæ przechylania
+    public float bobSpeed = 1f;      // PredkoSC bujania w pionie
+    public float rotateSpeed = 1f;   // PredkoSC przechylania
 
     private Vector3 startPos;
 
